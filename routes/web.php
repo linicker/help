@@ -11,13 +11,16 @@
 |
 */
 Route::post('/cadastrar-usuario', 'UsuarioController@cadastraUsuario');
+Route::get('/listar-usuarios', 'UsuarioController@listaUsuarios');
+Route::get('/form-cadastro', 'UsuarioController@formCadastro');
+
 
 Route::get('/', function () {
     return view('help');
 });
 
 Route::get('/cadastro', function () {
-    return view('cadastro');
+    return view('usuarios.cadastro');
 });
 
 Route::get('/guia', function () {

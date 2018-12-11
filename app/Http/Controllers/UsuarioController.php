@@ -30,7 +30,7 @@ class UsuarioController extends Controller
        return view('usuarios.cadastro');
      }
 
-    public function cadastraUsuarios(Request $requisicao)
+    public function cadastraUsuario(Request $requisicao)
     {
       Usuario::create([
         'nome' => $requisicao->get('nome'),
@@ -38,7 +38,7 @@ class UsuarioController extends Controller
         'user' => $requisicao->get('user'),
         'senha' => $requisicao->get('senha')
       ]);
-      return redirect('/');
+      return redirect('listar-usuarios');
     }
 
 

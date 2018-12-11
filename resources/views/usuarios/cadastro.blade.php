@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('conteudo-principal')
+
 <center>
 	<h1 class="mt-4">Cadastro</h1>
 </center>
