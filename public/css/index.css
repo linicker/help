@@ -1,0 +1,106 @@
+
+form button:hover {
+  text-shadow:1px 1px 20px black;
+  font-size:12pt;
+  cursor:pointer;
+
+}
+
+
+/*Estilizando individuais */
+  * {
+    box-sizing: border-box !important;
+    margin:0px !important;
+    /*padding:0px !important;*/
+  }
+
+  /*principal container*/
+  main {
+    width:100% !important;
+    min-height:600px;
+    position:relative !important;
+  }
+
+header {
+  margin:10px auto !important;
+  width:90%;
+  min-height:150px !important;
+  padding:50px !important;
+  background: url("/img/fundo1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow:1px 2px 20px black;
+  opacity:0.8;
+  text-align: right;
+  border-radius: 50px;
+  color:white;
+  text-shadow:1px 1px 5px rgba(47, 42, 47, 0.84);
+}
+
+div form#pesquisa a{
+  margin-left:30% !important;
+}
+
+form#cadastro {
+  margin: 10px auto !important;
+  width:80% !important;
+}
+
+form#cadastro .form-group {
+  margin: 10px auto !important;
+}
+
+form#cadastro .btn {
+  margin: 10px auto !important;
+}
+
+table tbody tr:nth-child(2n+1) {
+
+background:lightgray;
+
+}
+
+  article {
+    margin:10px auto !important;
+    padding:10px;
+    width:100%;
+    min-height:500px;
+    box-shadow: 1px 10px 20px rgba(0, 28, 31, 0.33);
+    position: relative;
+     border-radius:0px 0px 10px 10px;
+     /*text-align: center;*/
+  }
+
+  article#detalheCarro {
+    width:80%;
+    padding: 20px;
+  }
+
+  article#editarCarro {
+    width:80%;
+    padding: 20px;
+  }
+
+  article#editarCarro h1, h3{
+    text-align: center;
+  }
+
+  article#detalheCarro h1, h3{
+    text-align: center;
+  }
+
+  article#detalheCarro img {
+    width:300px;
+    height:200px;
+    margin-left:35% !important;
+  }
+
+  article div#link a {
+    margin:0px !important;
+    color:green;
+  }
+
+
+  footer {
+    text-align: center;
+  }
