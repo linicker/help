@@ -6,7 +6,7 @@
 </center>
 
 <div class="row justify-content-sm-center">
-	<form method="POST" class="form-row mt-4 mb-5" action="acoes/inserir.php">
+	<form method="POST" class="form-row mt-4 mb-5" action="/cadastrar-usuario">
 		<table cellpadding="8px" cellspacing="4px">
 			<tr>
 				<td>Nome: </td>
@@ -29,13 +29,13 @@
 				
 			</tr>
 			<tr>
+				<td colspan="2"> <input type="submit" class="btn btn-outline-secondary" id="cadastrar" name="cadastrar" value="cadastrar">
+				<!--
+			<tr>
 				<td>Confirme a senha: </td>
 				<td><input class="form-control ml-1 mr-1" type="password" id="csenha" name="csenha"></td>
 				
 			</tr
-			<tr>
-				<td colspan="2"> <input type="submit" class="btn btn-outline-secondary" id="cadastrar" name="cadastrar" value="cadastrar">
-				<!--
 					<button class="btn btn-success" id="buscar" type="button">Buscar</button>
 			<tr>
 				<td colspan="2" id="dados">
